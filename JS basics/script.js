@@ -71,20 +71,55 @@
 // console.log(arrClone);
 
 //call
+//apply
+//bind
+var employee1={
+    firstName : "Kiran",
+    secondName : "Madiwalar"
+}
+var employee2 = {
+    firstName : "arun",
+    secondName :"aron"
+}
 
-// var employee1={
-//     firstName : "Kiran",
-//     secondName : "Madiwalar"
-// }
-// var employee2 = {
-//     firstName : "arun",
-//     secondName :"aron"
-// }
+function greet (greeting1,greeting2){
+    console.log(greeting1+" "+this.firstName+ " " + this.secondName + ", " + greeting2 );
+}
 
-// function greet (greeting1,greeting2){
-//     console.log(greeting1+" "+this.firstName+ " " + this.secondName + ", " + greeting2 );
-// }
-
+//call=>
 // greet.call(employee1,"Hello","How are You?")
 // greet.call(employee2,"Hello","How are You?")
 
+//apply=>
+//  greet.apply(employee1, ["hello", "How are you ?"])
+//  greet.apply(employee2, ["hello", "How are you ?"])
+
+//bind=>
+//  var inviteEmployee1 = greet.bind(employee1);
+//  var inviteEmployee2 = greet.bind(employee2);
+
+//  inviteEmployee1("hello", "how are you ?");
+//  inviteEmployee2("hello", "how are you ?");
+
+//HoF
+// A Hof is function, that takes the function as arguments and return a function as output.
+// const arr1 = [10,45,90];
+// const arr2 = arr1.map(function name(item){
+//     return item*10;
+// });
+//  console.log(arr2);
+
+//Unary Function/monodic fn:
+// const unaryFunction = a => a + 20;
+// console.log(unaryFunction(45)); // o/p : 65
+
+//currying function
+
+// function volume (length) {
+//     return function(breadth){
+//         return function (height){
+//             return length *breadth *height ;
+//         }
+//     }
+// }
+// console.log(volume(20)(40)(60));
