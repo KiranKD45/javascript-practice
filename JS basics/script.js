@@ -37,5 +37,54 @@
 // const semiPerimeter = (side1+side2+side3)/2;
 // const area = Math.sqrt(semiPerimeter * ((semiPerimeter-side1)*(semiPerimeter-side2) *(semiPerimeter-side3)));
 // console.log(area);
-//Area of triangle = sqrt (s*(s-a)*(s-b)*(s-c))
+// //Area of triangle = sqrt (s*(s-a)*(s-b)*(s-c))
+
+// function leapyear(year)
+// {
+// return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+// }
+// console.log(leapyear(2016));
+
+// closure
+
+// outer function
+// function greet(name) {
+
+//     // inner function
+//     function displayName() {
+//         console.log('Hi' + ' ' + name);
+//     }
+
+//     // calling inner function
+//     displayName();
+// }
+
+// // calling outer function
+// greet("John"); // Hi John
+//spread op
+
+// const obj = { a: 1, b: 45 };
+// const objClone = { ...obj };
+// const arr =[1,45,45,90];
+// console.log(objClone);
+// const arrClone = [...arr];
+// console.log(arrClone);
+
+//call
+
+// var employee1={
+//     firstName : "Kiran",
+//     secondName : "Madiwalar"
+// }
+// var employee2 = {
+//     firstName : "arun",
+//     secondName :"aron"
+// }
+
+// function greet (greeting1,greeting2){
+//     console.log(greeting1+" "+this.firstName+ " " + this.secondName + ", " + greeting2 );
+// }
+
+// greet.call(employee1,"Hello","How are You?")
+// greet.call(employee2,"Hello","How are You?")
 
