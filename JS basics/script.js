@@ -123,3 +123,38 @@ function greet (greeting1,greeting2){
 //     }
 // }
 // console.log(volume(20)(40)(60));
+
+//setTimeOut and setinterval
+
+// setTimeout(()=>{ console.log("hiii");},5000) // hiii will print once after 5 secs(once only)
+
+// setInterval(()=>{console.log("hello");},2000); // hello will print every 2 sec interval (repeated)
+
+
+//precedence of global and local variable
+
+//local variable takes the precedence over a global variable
+
+// var msg = "Good morning";
+// function greeting() {
+//   msg = "Good Evening";
+// }
+// greeting();
+// console.log(msg);
+
+//var let const
+ 
+// var a = 10;
+// var a = 45;
+// a= 50;
+// console.log(a);// o/p +> 50;
+
+//var can be redeclared, reassigned and can be updated;
+
+// let a =10;
+// a=50;
+// console.log(a); // o/p => 50
+// let cannot be redeclared, cannot be reassiagned and only updated;
+
+// const a =45;
+ // const "cannot" be redeclared,reassigned,updated...
