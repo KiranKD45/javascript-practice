@@ -158,3 +158,25 @@ function greet (greeting1,greeting2){
 
 // const a =45;
  // const "cannot" be redeclared,reassigned,updated...
+//  let x = "kiran";
+// let Social = true;
+// let hello;
+// let money = null;
+
+// console.log( " value:"+ x +"  datatype:"+ typeof x);
+// console.log(" value:"+ Social + "   datatype:"+ typeof Social);
+// console.log(" value:"+ hello + "   datatype:"+typeof hello);
+// console.log(" value:"+ money + "   datatype:" + typeof money);
+
+// let myName = "Kiran Madiwalar"
+// console.log(myName.split(""));
+// let dreamCompanies = 'Facebook,Google,Microsoft,Apple,IBM,Oracle,Amazon';
+// console.log(dreamCompanies.split(","));
+
+// console.log(`This is string sentence
+// This is string sentence
+// 2`);
+// s
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+//   fruits.splice(2, 1, "Lemon", "Kiwi");
+// console.log(fruits);

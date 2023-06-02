@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./script.js" defer></script>
-  </head>
+<html>
   <body>
-    <!-- Question 2 -->
-    <!-- <p>if you wanna print current page click below!!</p>
-    <button onclick="Printpage()">Print</button>
-    <script src="./script.js"></script> -->
+    <h2>JavaScript Arrays</h2>
+
+    <p>The Array.splice() method adds and removes array elements:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+      // At position 2, add 2 elements, remove 1:
+      fruits.splice(2, 1, "Lemon", "Kiwi");
+
+      document.getElementById("demo").innerHTML = fruits;
+    </script>
   </body>
 </html>
