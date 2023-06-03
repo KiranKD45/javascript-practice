@@ -73,18 +73,18 @@
 //call
 //apply
 //bind
-var employee1={
-    firstName : "Kiran",
-    secondName : "Madiwalar"
-}
-var employee2 = {
-    firstName : "arun",
-    secondName :"aron"
-}
+// var employee1={
+//     firstName : "Kiran",
+//     secondName : "Madiwalar"
+// }
+// var employee2 = {
+//     firstName : "arun",
+//     secondName :"aron"
+// }
 
-function greet (greeting1,greeting2){
-    console.log(greeting1+" "+this.firstName+ " " + this.secondName + ", " + greeting2 );
-}
+// function greet (greeting1,greeting2){
+//     console.log(greeting1+" "+this.firstName+ " " + this.secondName + ", " + greeting2 );
+// }
 
 //call=>
 // greet.call(employee1,"Hello","How are You?")
@@ -180,3 +180,24 @@ function greet (greeting1,greeting2){
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 //   fruits.splice(2, 1, "Lemon", "Kiwi");
 // console.log(fruits);
+
+//fibonacci 
+
+// f(0)=0,f(1)=1,f(2)=1,f(3)=2,f(4)=3,f(5)=5,f(6)=8,f(7)=13,,,, this is the last 2 values addition..
+// f(n)=f(n-1)+f(n-2);
+
+// function fib(n){
+
+//     // if (n===0) {
+//     //     return 0;
+//     // }
+//     // if (n===1) {
+//     //     return 1;        
+//     // }
+//     if(n==0 || n==1){ //where || is OR 
+//     return n;
+//     }
+//     return fib(n-1)+fib(n-2);
+// }
+
+// console.log(fib(40));
