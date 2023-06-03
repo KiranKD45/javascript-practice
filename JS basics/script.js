@@ -201,3 +201,20 @@
 // }
 
 // console.log(fib(40));
+
+
+//SumOf(5)to (1) problem.
+
+//sumof(5) =5+4+3+2+1
+//sumof(5)= 5+sumof(4) //sumof(4)= 4+3+2+1
+//sumof(n)=n + sumof(n-1)
+
+// function sumof(n){
+//     if (n==1) {
+//         return 1;
+//     }
+
+//     return n + sumof(n-1);
+// }
+
+// console.log(sumof(5));
