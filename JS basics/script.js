@@ -218,3 +218,85 @@
 // }
 
 // console.log(sumof(5));
+
+
+//powerof 4
+// check leetcode for explanation..
+
+// function poweroffour(n) {
+//     if (n<=0) {
+//         return false
+//     }
+//     if (n==1) {
+//         return true
+//     }
+//     if (n%4==0) {
+//         return poweroffour(n/4)
+//     }
+//     else{
+//         return false;
+//     }
+// }
+
+// console.log( poweroffour(24));
+
+//Sumof natural numbers
+
+// function naturalnum(n) {
+//     return (n*(n+1))/2;
+// }
+// console.log(naturalnum(3));
+
+
+//product of numbers
+
+
+
+
+//factorial of n
+// 5*4*3*2*1 = 120
+// function factorial(n) {
+//     return 
+// }
+
+// var str = "Hello World"
+// console.log(str.slice(6));
+
+// const container = document.getElementById("container");
+// container.style.color = "red";
+// function jokee() {
+//     fetch("https://api.chucknorris.io/jokes/random")
+//     .then((response)=>{ return response.json()})
+//     .then((data)=>{var joke = data.value; container.innerHTML=joke})
+//     .catch();
+// }
+
+
+// promice and Async and await
+
+// const one = ()=>{
+//     return "it is one"
+// };
+// const two =()=>{
+// return "it is two";
+// };
+// const three = ()=>{
+//     return "it is three"
+// }
+
+// const calling = async()=>{
+//     let valOne = one();
+//     console.log(valOne);
+//     let valTwo = await two();
+//     console.log(valTwo);
+//     let valThree = three();
+//     console.log(valThree);
+// }
+
+// calling();
+// const prom =  new Promise((resolve, reject) => {
+//     setTimeout(()=>{
+//         resolve("credintial correct");
+//     },3000)
+// })
+// console.log(prom);
