@@ -300,3 +300,13 @@
 //     },3000)
 // })
 // console.log(prom);
+function sapi() {
+    fetch("https://api.chucknorris.io/jokes/random")
+    .then((response)=>{return response.json})
+    .then((data)=>{var store = data.value;
+      console.log(store);
+    }).catch()
+}
+sapi();
+console.log(sapi());
+
