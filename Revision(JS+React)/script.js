@@ -72,3 +72,61 @@
 // }
 
 
+// splice and slice
+
+// states= ["ka","mh","tn","dl","pj","rj","kl"];
+
+// console.log(states.slice(1,5))
+// states.splice(0,5,"maharashtra","karnataka")
+// console.log(states);
+
+//filter
+
+// states =["ireland","thailand", "india", "iceland","netherland"]
+
+// states2=states.filter((val)=>(val.includes("land")))
+
+// console.log(states2);
+
+
+// Map
+
+// const names = ["kiran","kd","hitesh","vinay","raju"];
+// const ipp = names.map((val)=>{
+//    return val.substring(2,3)
+// })
+
+// console.log(ipp);
+
+// const int = [1,2,45,90,3,4,6,7,8,9,10,49];
+
+// const square = int.map((num)=>(num*num))
+// console.log(square);
+
+// const squareRoot = int.map((num)=>((Math.sqrt(num).toFixed(2)) ))
+// console.log(squareRoot);
+
+// filter
+// const num = [1,2,4,6,8,10,11];
+// console.log(num.filter((val)=>(val % 3 == 0)));
+
+// const num = [1,2,3,4,5,6,7,8,9];
+// const number = num.forEach((val)=>(console.log(val*val) ));
+
+// this keyword
+
+// const person = {
+//     firstName: "John",
+//     lastName : "Doe",
+//     id       : 5566,
+//     fullName : function() {
+//       return this.firstName + " " + this.lastName;
+//     }
+//   };
+//   console.log(person.fullName());
+
+//coding round questions practice
+
+// 1
+
+
