@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 100px;
+    background-color: rgba(15, 14, 14, 0.585);
+    text-align: center;
+    
+}
+.colors{
+    display: flex;
+    
+}
+
+.color{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.pink{
+    background-color: pink;
+}
+.purple{
+    background-color:rebeccapurple;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}
+.orange{
+    background-color: orange;
+}
+.result{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: fixed;
+    top: 300px;
+    
+}
