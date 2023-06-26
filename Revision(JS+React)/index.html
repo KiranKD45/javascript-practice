@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: rebeccapurple;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .count {
+      color: aquamarine;
+    }
+    .followers {
+      color: red;
+    }
+  </style>
+
+  <body>
+    <div>
+      <h2 class="count">1000</h2>
+      <h1 class="followers">Followers</h1>
+    </div>
+  </body>
+  <script>
+    var counter = document.querySelector(".count");
+    var followers = document.querySelector(".followers");
+
+    let count = 1;
+    var changer = setInterval(() => {
+      if (count < 1500) {
+        count++;
+        counter.innerText = count;
+      }
+    }, 1);
+
+    setTimeout(() => {
+      followers.innerText = "followers on instagram";
+    }, 5000);
+  </script>
+</html>

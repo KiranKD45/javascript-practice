@@ -125,6 +125,9 @@
 //   };
 //   console.log(person.fullName());
 
+//counter project code
+// is in html file
+
 //coding round questions practice
 
 // 1
