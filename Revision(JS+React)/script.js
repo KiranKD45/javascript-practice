@@ -128,6 +128,21 @@
 //counter project code
 // is in html file
 
+
+//maps in JS
+
+//  var myMap = new Map();
+// myMap.set(1, "kiran");
+// myMap.set(2, "madiwalar")
+
+// // console.log(myMap);
+// for (let [keys, value]  of myMap) {
+//     console.log(`key is ${keys} and the value is ${value}`);
+// }
+
+
+// myMap.delete(1);
+// console.log(myMap);
 //coding round questions practice
 
 // 1
