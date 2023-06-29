@@ -145,6 +145,27 @@
 // console.log(myMap);
 //coding round questions practice
 
+//event loop
+
+// const one = ()=>{
+//     console.log("iam first");
+// }
+
+// const two = ()=>{
+//     setTimeout(()=>{console.log("I am two");},2000)
+// }
+
+// const three = ()=>{
+//     console.log( "i am three");
+// }
+
+
+// three();
+// two();
+// one();
+
+
+
 // 1
 
 
